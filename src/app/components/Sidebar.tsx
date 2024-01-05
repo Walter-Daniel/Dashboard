@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { IoBrowsersOutline, IoCalculator, IoLogoReact } from "react-icons/io5";
+import { SiSaturn } from "react-icons/si";
 import { SidebarMenu } from "./SidebarMenu";
+
 
 
 const menuItems = [
@@ -15,6 +17,12 @@ const menuItems = [
         icon: <IoCalculator size={40} />,
         title: 'Counter',
         subtitle: 'Contador Client Side'
+    },
+    {
+        path: '/dashboard/apod',
+        icon: <SiSaturn size={40} />,
+        title: 'APOD',
+        subtitle: 'Astronomy Picture of the Day'
     },
 ]
 
